@@ -33,7 +33,7 @@ def transpile(
     target_version: str,
     from_version: Optional[str] = None,
     api_key: Optional[str] = None,
-    options_override: Dict[str, Any] | None = None,
+    options_override: Optional[Dict[str, Any]] = None,
 ) -> str:
     """Transpile the given code to the target version of Python.
 
