@@ -1,0 +1,1 @@
+import transpyler_gpt._codec; transpyler_gpt._codec.register()

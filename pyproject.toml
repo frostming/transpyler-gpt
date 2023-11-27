@@ -1,0 +1,23 @@
+[project]
+name = "transpyler-gpt"
+version = "0.0.1"
+description = "A GPT-powered Python transpiler that makes your Python code run on older versions"
+authors = [
+    {name = "Frost Ming", email = "me@frostming.com"},
+]
+dependencies = [
+    "openai>=1.0",
+]
+requires-python = ">=3.7.1"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.scripts]
+transpyle = "transpyler_gpt.__main__:main"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.build]
+includes = ["src/"]
