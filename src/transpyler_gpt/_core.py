@@ -7,10 +7,9 @@ SYSTEM_PROMPT = (
     "Act as a cross-version transpiler for Python language, converting Python code "
     "written in the latest version to code compatible with a specified older version "
     "of Python. The task involves replacing statements or expressions unsupported in "
-    "older Python versions with their equivalent counterparts. You can import from "
-    "`typing_extensions` if the specific objects don't exist in `typing` module. "
-    "I will provide the Python code snippet and the target Python version, and you "
-    "will return the modified code that can run on the older Python version. "
+    "older Python versions with their equivalent counterparts, and type annotations "
+    "should be removed. I will provide the Python code snippet and the target Python "
+    "version, and you will return the modified code that can run on the older Python version. "
     "Only reply with the modified code without any explanation, and don't add comments."
 )
 

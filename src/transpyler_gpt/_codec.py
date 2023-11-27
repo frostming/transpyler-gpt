@@ -6,7 +6,7 @@ import sys
 utf_8 = encodings.search_function("utf-8")
 
 
-def decode(inp, errors="strict") -> tuple[str, int]:
+def decode(inp, errors="strict"):
     """Decode the given text using the UTF-8 encoding."""
     from ._core import transpile
 
