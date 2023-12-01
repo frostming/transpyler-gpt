@@ -78,7 +78,7 @@ And you are able to run with older version directly:
 python3.7 test.py
 ```
 
-> **Note**
+> [!NOTE]
 > You need to install `transpyler-gpt` into the target Python. For example, if you want to run the transpiled code on Python 3.7, you need to install `transpyler-gpt` into Python 3.7.
 
 
